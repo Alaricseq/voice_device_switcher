@@ -21,11 +21,11 @@ http://127.0.0.1:5000
 
 ## 🎤 Example Voice/Text Commands
 
-Turn on light
-Turn off fan
-Movie mode
-Turn everything off
-Status
+- Turn on light
+- Turn off fan
+- Movie mode
+- Turn everything off
+- Status
 
 ## 🛠️ Installation
 ```bash
