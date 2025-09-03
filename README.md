@@ -27,6 +27,8 @@ http://127.0.0.1:5000
 - Turn everything off
 - Status
 
+
+
 ## 🛠️ Installation
 ```bash
 git clone https://github.com/Alaricseq/voice_device_switcher.git
@@ -34,5 +36,11 @@ cd voice_device_switcher
 python -m venv venv
 source venv/bin/activate   # (or venv\Scripts\activate on Windows)
 pip install -r requirements.txt
+
+## 📸 Screenshot
+![Dashboard Screenshot](assets/UI.png)
+![Turn on light](assets/Turn%20on%20light.png)
+![Fan Turned ON](assets/Fan%20turned%20on%20.png)
+![Status](assets/Status.png)
 
 
