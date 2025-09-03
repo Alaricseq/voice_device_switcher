@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f9;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.devices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.device-card {
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.device-card h2 {
+    margin-bottom: 10px;
+}
+
+.device-card a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+}
+
+.device-card a:hover {
+    background: #0056b3;
+}
+
+.special {
+    margin-top: 30px;
+}

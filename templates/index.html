@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3">
+    <title>Device Switcher Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>🔊 Voice-Control Device Switcher Dashboard</h1>
+    <div class="devices">
+        {% for device, state in devices.items() %}
+            <div class="device-card">
+                <h2>{{ device.capitalize() }}</h2>
+                <p>Status: <strong>{{ 'ON' if state else 'OFF' }}</strong></p>
+                <a href="/toggle/{{device}}/on">Turn ON</a> |
+                <a href="/toggle/{{device}}/off">Turn OFF</a>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="special">
+        <a href="/movie">🎬 Movie Mode</a> |
+        <a href="/all_off">⛔ Turn Everything OFF</a>
+    </div>
+</body>
+</html>
