@@ -9,7 +9,23 @@ A simple project that lets you control virtual devices (Light, Fan, TV) using **
 - Auto-updating UI
 - Modes: Movie Mode, Turn Everything Off
 
+## ▶️ Usage
 
+Run voice + Flask together:
+
+python main.py
+
+Open the dashboard in your browser:
+
+http://127.0.0.1:5000
+
+## 🎤 Example Voice/Text Commands
+
+Turn on light
+Turn off fan
+Movie mode
+Turn everything off
+Status
 
 ## 🛠️ Installation
 ```bash
